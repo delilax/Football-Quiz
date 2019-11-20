@@ -1,0 +1,20 @@
+angers;angers;France Ligue 1%
+bolivar;club bolivar;Liga de Fútbol Profesional Boliviano%
+brno;Zbrojovka Brno;Czech First League%
+frosinone;frosinone calcio;Italy Serie B%
+furth;Greuther Fürth;Germany 2. Bundesliga%
+lanus;lanus;Argentine Primera División%
+leganes;leganes;Spanish La Liga%
+pachuca;pachuca;Mexican Liga MX%
+panionis;panionios;Superleague Greece%
+santafe;santa fe;Colombian Liga Aguila%
+seoul;seoul;South Korean K League Classic%
+shkendija;shkendija;Macedonian First League%
+tokyo;tokyo;Japanese J1 League%
+universitateacracovia;Universitatea Craiova;Romanian Liga IV%
+valenciennes;Valenciennes;France Ligue 2%
+valerenga;valerenga;Norwegian Eliteserien%
+vascodegama;Vasco da Gama;Brazil Serie A%
+vitesse;vitesse;Netherlands Eredivisie%
+wacker;Wacker Innsbruck;Austrian Erste Liga%
+wycombewanderers;Wycombe Wanderers;English Football League Two%

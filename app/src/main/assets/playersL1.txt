@@ -1,0 +1,130 @@
+aguero;sergio aguero;Argentinian professional footballer who plays as a striker for English club Manchester City and the Argentina national team.
+
+On 5 July 2003, he became the youngest player to debut in the Argentine Primera División at 15 years and 35 days, breaking the record previously established by Diego Maradona in 1976.%
+
+
+
+bale;gareth bale;Welsh professional footballer who plays as a winger for Spanish club Real Madrid and the Wales national team.
+
+Renowned for his ball striking from distance, swerving free kicks, and his ability to get past defenders with pace, he has received plaudits from his peers, who have described him as a footballer with "tremendous speed, great crossing ability, a great left foot and exceptional physical qualities"%
+
+
+
+messi;lionel messi;Argentine professional footballer who plays as a forward for Spanish club FC Barcelona and the Argentina national team.
+
+Often considered the best player in the world and regarded by many as the greatest of all time, he is the only player in history to win five FIFA Ballon d'Or awards, four of which he won consecutively, and a record-tying four European Golden Shoes.
+He has won 29 trophies with Barcelona, including eight La Liga titles, four UEFA Champions League titles, and five Copas del Rey.
+Both a prolific goalscorer and a creative playmaker, he holds the records for most official goals scored in La Liga (351), a La Liga season (50) and a club football season in Europe (73), a calendar year (91), as well as those for most assists made in La Liga (137) and the Copa América (11).
+He has scored over 500 senior career goals for club and country.%
+
+
+hazard;eden hazard;Belgian professional footballer who plays for English club Chelsea and the Belgium national team.
+
+He primarily plays as an attacking midfielder and as a wide midfielder. He's creativity, speed, and technical ability are widely acknowledged. He has been described as "a superb passer" and has earned critical acclaim for his playing style, which has led to the media, coaches, and players drawing comparisons to Ballon d'Or winners Lionel Messi and Cristiano Ronaldo.%
+
+
+
+griezmann;antoine griezmann;French professional footballer who plays for Spanish club Atlético Madrid and the France national team as a forward.
+
+He began his career at Real Sociedad, making his debut in 2009 and winning the Segunda División title in his first season.
+Across five seasons there, he scored 52 goals in 201 official matches. In 2014, he transferred to Atlético Madrid for €30 million.%
+
+
+
+neymar;neymar;Brazilian professional footballer who plays as a forward for French club Paris Saint-Germain and the Brazil national team.
+
+He came into prominence at an early age at Santos, where he made his professional debut aged 17. He helped the club win two successive Campeonato Paulista championships, a Copa do Brasil, and the 2011 Copa Libertadores, Santos' first continental title since 1963%
+
+
+
+pogba;paul pogba;French professional footballer who plays for Premier League club Manchester United and the France national team.
+
+He operates primarily as a central midfielder and is comfortable playing both in attack and defence.
+After beginning his career with Manchester United in 2011, Pogba joined Italian side Juventus in 2012, and helped the club to four consecutive Serie A titles, as well as two Coppa Italia and two Supercoppa Italiana titles.%
+
+
+
+ibrahimovic;zlatan ibrahimovic;Swedish professional footballer who plays as a forward and is currently a free agent. He was also a member of the Sweden national team, making his senior international debut in 2001 and serving as captain from 2010 until he retired from international football in 2016.
+Primarily a striker, he is a prolific goalscorer, who is best known for his technique, creativity, strength, ability in the air, and his powerful and accurate striking ability. %
+
+
+
+lewandowski;robert lewandowski; Polish professional footballer who plays as a striker for Bundesliga club Bayern Munich, and captains the Poland national team.
+
+After being the top scorer in the third and second tiers of Polish football with Znicz Pruszków, he moved to top-flight Lech Poznań, and was the top scorer in the league as they won the 2009–10 Ekstraklasa.
+In 2010, he transferred to Borussia Dortmund for a reported €4.5 million, where he won honours including two consecutive Bundesliga titles and a season as the league's top goalscorer.%
+
+
+
+rooney;wayne rooney;English professional footballer who plays for Everton and captains the England national team. He has played much of his career as a forward, and he has also been used in various midfield roles. He is the record goalscorer for the England national team and for Manchester United.
+
+At club level, he has won every honour available in English, Continental and European football, with the exception of the European Super Cup.
+Along with Michael Carrick, he is the only English player to win the Premier League, FA Cup, UEFA Champions League, League Cup, UEFA Europa League and FIFA Club World Cup%
+
+
+
+iniesta;andres iniesta;Spanish professional footballer who plays as a midfielder for FC Barcelona and the Spain national team.
+
+He serves as the captain for Barcelona.
+Iniesta came through La Masia, the Barcelona youth academy, after an early emigration from his birthplace, and impressed from an early age. He made his first-team debut aged 18 in 2002.%
+
+
+
+ozil;mesut ozil;German footballer who plays for English club Arsenal and the Germany national team.
+
+He has been a youth national team member since 2006, and a member of the Germany national team since 2009.
+He gained international attention during the 2010 FIFA World Cup and was nominated for the Golden Ball Award, which is awarded to the tournament's best player.%
+
+
+
+higuain;gonzalo higuain;Argentine professional footballer who plays as a striker for Italian club Juventus and the Argentina national team.
+
+Nicknamed El Pipita or Pipa, as was his father, Jorge, who was also a footballer, He was born in France, attaining Argentine citizenship in 2007, and now holds dual nationality.
+He started his career with Argentine club River Plate, before a transfer to Real Madrid in January 2007 for €12 million.%
+
+
+
+marchisio;claudio marchisio; Italian professional footballer who plays as a midfielder for Juventus and the Italian national team.
+
+A product of the Juventus youth system, he has spent his whole career thus far at his hometown club, with the exception of a season-long loan spell at Empoli, winning six consecutive Serie A titles.
+He is currently the club's second vice-captain, behind Giorgio Chiellini.%
+
+
+
+sanchez;alexis sanchez;Chilean professional footballer who plays as a forward for English club Arsenal and the Chile national team.
+
+After his debut season of first-team football with Cobreloa, He was signed by Italy's Udinese in 2006. Following successful loans at Colo-Colo and River Plate, he began playing in Serie A. In 2011, he was signed by Barcelona for £25 million, becoming the most expensive transfer in Chilean football history.
+He signed for Arsenal in July 2014 for a fee reported to be £31.7 million, making him the third-most expensive signing in the club's history after Mesut Özil and Granit Xhaka.%
+
+
+
+robben;arjen robben;Dutch professional footballer who plays for German club Bayern Munich and is the captain of the Netherlands national team.
+
+He is a forward who usually plays as a left or right sided winger, known for his dribbling skills, speed, crossing ability and his accurate left foot long-range shots from the right wing.%
+
+
+
+ronaldo;cristiano ronaldo;Portuguese professional footballer who plays as a forward for Spanish club Real Madrid and the Portugal national team.
+
+Often considered the best player in the world and widely regarded as one of the greatest of all time, He has four FIFA Ballon d'Or awards, the most for a European player, and is the first player in history to win four European Golden Shoes.
+He holds the records for most official goals scored in the top five European leagues (369), the UEFA Champions League (105) and the UEFA European Championship (29), as well as the most goals scored in a UEFA Champions League season (17). He has scored more than 600 senior career goals for club and country.%
+
+
+
+modric;luka modric;Croatian professional footballer who plays for Spanish club Real Madrid and captains the Croatia national team.
+
+He plays mainly as a central midfielder but can also play as an attacking midfielder or as a defensive midfielder, usually deployed as a deep-lying playmaker.%
+
+
+
+suarez;luis suarez;Uruguayan professional footballer who plays as a striker for Spanish club FC Barcelona and the Uruguay national team.
+
+Widely regarded as one of the best strikers in the world, He has won two European Golden Shoes, as well as being named as the third-best footballer in the world by The Guardian, second-best by Goal, and best striker in the world by ESPN FC in 2016.
+He has won the Eredivisie Golden Boot, the Premier League Golden Boot, as well as ending the six-year dominance of Lionel Messi and Cristiano Ronaldo by winning La Liga's Pichichi Trophy in 2016. In October 2015, he scored his 300th senior career goal for club and country.%
+
+
+
+ribery;franck ribery;French professional footballer who plays for German club Bayern Munich. He is a former France national team player.
+
+He primarily plays as a winger, preferably on the left side although being right-footed, and is known for pace, energy, skill and precise passing.
+He is described as a player who is fast, tricky and an excellent dribbler, who has great control with the ball at his feet.%

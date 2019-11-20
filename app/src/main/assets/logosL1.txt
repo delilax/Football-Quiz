@@ -1,0 +1,20 @@
+arsenal;arsenal;English Premier League %
+barcelona;barcelona;Spanish Primera Division %
+bayern;bayern munchen;Germany Bundesliga %
+chelsea;chelsea;English Premier League %
+dortmund;borussia dortmund;Germany Bundesliga %
+everton;everton;English Premier League %
+fiorentina;fiorentina;Italy Seria A %
+inter;inter milan;Italy Seria A %
+juventus;juventus;Italy Seria A %
+lyon;lyon;France Ligue 1 %
+mancity;manchester city;English Premier League %
+manunited;manchester united;English Premier League %
+milan;milan;Italy Seria A %
+psg;paris saint germain;France Ligue 1 %
+realmadrid;real madrid;Spanish Primera Division %
+sevilla;sevilla;Spanish Primera Division %
+tottenham;tottenham;English Premier League %
+valencia;valencia;Spanish Primera Division %
+villareal;villarreal;Spanish Primera Division %
+liverpool;liverpool;English Premier League %

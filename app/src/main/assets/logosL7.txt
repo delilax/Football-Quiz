@@ -1,0 +1,20 @@
+aberdeen;aberdeen;Scottish Premiership%
+basel;basel;Swiss Super League%
+crystalpalace;crystal palace;English Premier League%
+derbycounty;Derby County;English EFL Championship%
+fdusseldorf;Fortuna Dusseldorf;Germany 2. Bundesliga%
+fenerbahce;fenerbahce;Turkey Süper Lig%
+freiburg;freiburg;Germany Bundesliga%
+galatasaray;galatasaray;Turkey Süper Lig%
+lokomotiv;Lokomotiv Moscow;Russian Premier League%
+maccabi;Maccabi Tel Aviv;Israeli Premier League%
+middlesborough;Middlesbrough;English EFL Championship%
+nancy;nancy;France Ligue 2%
+paok;paok;Superleague Greece%
+penarol;penarol;Uruguayan Primera División%
+roda;roda;Netherlands Eredivisie%
+shakhtar;Shakhtar Donetsk;Ukrainian Premier League%
+siena;siena;Italy Serie C%
+utrecht;Utrecht;Netherlands Eredivisie%
+youngboys;young boys;Swiss Super League%
+zurich;zurich;Swiss Super League%

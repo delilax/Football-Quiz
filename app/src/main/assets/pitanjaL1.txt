@@ -1,0 +1,20 @@
+Which country has won the most World Cups?;Brazil;Argentina;Germany;Spain;South America%
+Who won the most English Premier League titles?;Manchester United;Liverpool;Arsenal;Aston Villa;20 titles%
+Who is a manager with most titles in English Premier League?;Sir Alex Ferguson;Jose Mourinho;Rafael Benitez;Arsen Wenger;13 titles%
+Player with most Seria A League appearances for AS Roma?;Francesco Totti;Daniele de Rossi;Damiano Tomassi;Vincenzo Montela;619 games%
+Who scored most goals for FC Santos?;Pele;Pepe;Coutinho;Neymar;1091 goal%
+Club with most Bundesliga titles?;Bayern Munich;Borussia Dortmund;Schalke 04;Hertha BSC;26 titles%
+Who won World Cup in 2014?;Germany;Argentina;Spain;France;From Europe%
+Who won UEFA European Championship in 2016?;Portugal;France;Wales;Germany;Hosts of Euro 2004%
+Who won Champions League in 2016/2017?;Real Madrid;Juventus;Bayern Munich;Atletico Madrid;Spanish Club%
+Team with most Champions League titles?;Real Madrid;Milan;Chelsea;Ajax;Capital city team%
+How many countries participate in FIFA World Cup (since 1998)?;32;24;64;48;8 groups%
+There are how many Groups in First Round of Champions League(Since 2000)?;8;4;6;12;32 teams%
+Who's fans sing "You'll never walk alone"?;Liverpool;Manchester United;Newcastle;Arsenal;Red jersey%
+"12th player" or "12th man" is popular term for:;Fans;Manager;Club owner;Goalkeeper;Goalkeeper is 11th man%
+Which player is nicknamed "Pippo"?;Filippo Inzaghi;Filippo Maniero;Philippe Mexes;Philippe Christanval;Filippo Pippo%
+Manchester United is nicknamed:;Red Devils;Red Army;Green Hornets;Red Mist;Well, they play in red, so...%
+"21st FIFA World Cup" is 2018 FIFA World Cup in:;Russia;Qatar;Australia;Colombia;Mother ...%
+What is the name of Bayern Munich's stadium?;Allianz Arena;Olympiastadion;Grunwalder Stadion;Theresienwiese;Technically, all of them%
+Which world derby is known as "El Clasico"?;Barcelona vs Real Madrid;Juventus vs Barcelona;Atletico Madrid vs Real Madrid;Manchester United vs Real Madrid;Spanish word, so...%
+Their nickname is "Azzurri". They are:;Italy;France;Argentina;Japan;Ciao%

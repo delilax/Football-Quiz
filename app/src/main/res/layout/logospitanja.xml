@@ -1,0 +1,1248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/playbackground"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteY="25dp"
+    tools:layout_editor_absoluteX="0dp">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        ads:layout_constraintLeft_toLeftOf="parent"
+        ads:layout_constraintRight_toRightOf="parent"
+        ads:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/logosHint1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/infoicon"
+            android:contentDescription="@string/hints_description"
+            android:onClick="hintsLogos"
+            android:text=""
+            ads:layout_constraintLeft_toLeftOf="parent"
+            ads:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/logosHint4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/prvoslovo"
+            android:contentDescription="@string/hints_description"
+            android:onClick="hintsLogos"
+            android:text=""
+            ads:layout_constraintLeft_toRightOf="@+id/logosHint1"
+            ads:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/logosHint2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/halficon"
+            android:contentDescription="@string/hints_description"
+            android:onClick="hintsLogos"
+            android:text=""
+            ads:layout_constraintLeft_toRightOf="@+id/logosHint4"
+            ads:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/logosHint3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/correcticon"
+            android:contentDescription="@string/hints_description"
+            android:onClick="hintsLogos"
+            android:text=""
+            ads:layout_constraintLeft_toRightOf="@+id/logosHint2"
+            ads:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/adsButtonL"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/adsicon"
+            android:contentDescription="@string/hints_description"
+            android:onClick="setOnClickpopupAds"
+            android:text="@string/adsbutton"
+            ads:layout_constraintLeft_toRightOf="@+id/logosHint3"
+            ads:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/scoreLiveLogo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:autoSizeTextType="none"
+        android:text="@string/score"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        ads:layout_constraintLeft_toLeftOf="parent"
+        ads:layout_constraintTop_toBottomOf="@+id/linearLayout7" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hints"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        ads:layout_constraintTop_toBottomOf="@+id/linearLayout7"
+        android:layout_marginEnd="16dp"
+        ads:layout_constraintRight_toLeftOf="@+id/guideline12"
+        android:layout_marginRight="0dp" />
+
+    <TextView
+        android:id="@+id/hintsLogoAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        ads:layout_constraintRight_toRightOf="parent"
+        ads:layout_constraintTop_toBottomOf="@+id/linearLayout7"
+        ads:layout_constraintLeft_toRightOf="@+id/textView57"
+        android:layout_marginLeft="0dp" />
+
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/white_box"
+        android:contentDescription="@string/level_description"
+        android:text=""
+        ads:layout_constraintBottom_toTopOf="@+id/guideline7"
+        ads:layout_constraintLeft_toLeftOf="@+id/guideline4"
+        ads:layout_constraintRight_toLeftOf="@+id/guideline5"
+        ads:layout_constraintTop_toTopOf="@+id/guideline6"
+        ads:layout_constraintVertical_bias="0.0"
+        ads:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginBottom="8dp" />
+
+    <LinearLayout
+        android:id="@+id/dynamicAns2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal"
+        ads:layout_constraintLeft_toLeftOf="@+id/guideline13"
+        ads:layout_constraintRight_toLeftOf="@+id/guideline12"
+        ads:layout_constraintTop_toTopOf="@+id/guideline7">
+
+        <Button
+            android:id="@+id/ans2_0"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_1"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans2_1"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_2"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans2_2"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_3"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans2_3"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_4"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans2_4"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_5"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans2_5"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_6"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans2_6"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_7"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans2_7"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_8"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans2_8"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_9"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans2_9"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_0"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans2_10"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_7"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans2_11"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_8"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans2_12"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_0"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans2_13"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_6"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans2_14"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_9"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans2_15"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_0"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans2_16"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_6"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans2_17"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_9"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dynamicAns1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal"
+        ads:layout_constraintLeft_toLeftOf="@+id/guideline13"
+        ads:layout_constraintRight_toLeftOf="@+id/guideline12"
+        ads:layout_constraintTop_toBottomOf="@+id/dynamicAns2">
+
+        <Button
+            android:id="@+id/ans1_0"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_1"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans1_1"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_2"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans1_2"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_3"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans1_3"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_4"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans1_4"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_5"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans1_5"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_6"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans1_6"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_7"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans1_7"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_8"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans1_8"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_9"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans1_9"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_0"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans1_10"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_8"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans1_11"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_0"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans1_12"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_6"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans1_13"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_6"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans1_14"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_0"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans1_15"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_7"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans1_16"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_9"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans1_17"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_9"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dynamicAns0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal"
+        ads:layout_constraintBottom_toTopOf="@+id/layout_buttons"
+        ads:layout_constraintLeft_toLeftOf="@+id/guideline13"
+        ads:layout_constraintRight_toLeftOf="@+id/guideline12"
+        ads:layout_constraintTop_toBottomOf="@+id/dynamicAns1"
+        ads:layout_constraintVertical_bias="0.0">
+
+        <Button
+            android:id="@+id/ans0_0"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_1"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans0_1"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_2"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans0_2"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_3"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans0_3"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_4"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans0_4"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_5"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans0_5"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_6"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans0_6"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_7"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans0_7"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_8"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans0_8"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_9"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans0_9"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_0"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans0_10"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_2"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans0_11"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_7"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans0_12"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_3"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans0_13"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_1"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans0_14"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_5"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans0_15"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_4"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans0_16"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_6"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ans0_17"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_transparent"
+            android:onClick="checkAndScore"
+            android:text="@string/number_8"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout_buttons"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:orientation="horizontal"
+        ads:layout_constraintBottom_toTopOf="@+id/layout_buttons2"
+        ads:layout_constraintLeft_toLeftOf="parent"
+        ads:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="2dp"
+        ads:layout_constraintHorizontal_bias="0.0">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_play_bg"
+            android:onClick="checkAndScore"
+            android:text="@string/number_1"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_play_bg"
+            android:onClick="checkAndScore"
+            android:text="@string/number_2"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_play_bg"
+            android:onClick="checkAndScore"
+            android:text="@string/number_3"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_play_bg"
+            android:onClick="checkAndScore"
+            android:text="@string/number_4"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_play_bg"
+            android:onClick="checkAndScore"
+            android:text="@string/number_5"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_play_bg"
+            android:onClick="checkAndScore"
+            android:text="@string/number_6"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_play_bg"
+            android:onClick="checkAndScore"
+            android:text="@string/number_7"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_play_bg"
+            android:onClick="checkAndScore"
+            android:text="@string/number_8"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_play_bg"
+            android:onClick="checkAndScore"
+            android:text="@string/number_9"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_play_bg"
+            android:onClick="checkAndScore"
+            android:text="@string/number_0"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_buttons2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="horizontal"
+        ads:layout_constraintLeft_toLeftOf="parent"
+        ads:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        ads:layout_constraintBottom_toTopOf="@+id/banner">
+
+        <Button
+            android:id="@+id/btn11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_play_bg"
+            android:onClick="checkAndScore"
+            android:text="@string/number_1"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_play_bg"
+            android:onClick="checkAndScore"
+            android:text="@string/number_2"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_play_bg"
+            android:onClick="checkAndScore"
+            android:text="@string/number_3"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_play_bg"
+            android:onClick="checkAndScore"
+            android:text="@string/number_4"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_play_bg"
+            android:onClick="checkAndScore"
+            android:text="@string/number_5"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_play_bg"
+            android:onClick="checkAndScore"
+            android:text="@string/number_6"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_play_bg"
+            android:onClick="checkAndScore"
+            android:text="@string/number_7"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_play_bg"
+            android:onClick="checkAndScore"
+            android:text="@string/number_8"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_play_bg"
+            android:onClick="checkAndScore"
+            android:text="@string/number_9"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_play_bg"
+            android:onClick="checkAndScore"
+            android:text="@string/number_0"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/nexticon"
+        android:onClick="goToPN"
+        android:textStyle="bold"
+        ads:layout_constraintBottom_toTopOf="@+id/guideline7"
+        ads:layout_constraintHorizontal_bias="0.0"
+        ads:layout_constraintLeft_toLeftOf="@+id/guideline5"
+        ads:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/backicon"
+        android:onClick="backToLevelsLogos"
+        android:textStyle="bold"
+        ads:layout_constraintRight_toLeftOf="@+id/guideline4"
+        ads:layout_constraintTop_toTopOf="@+id/guideline6" />
+
+    <Button
+        android:id="@+id/previous"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/previousicon"
+        android:onClick="goToPN"
+        android:textStyle="bold"
+        ads:layout_constraintBottom_toTopOf="@+id/guideline7"
+        ads:layout_constraintHorizontal_bias="1.0"
+        ads:layout_constraintLeft_toLeftOf="parent"
+        ads:layout_constraintRight_toLeftOf="@+id/guideline4" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/banner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/test_banner"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        ads:layout_constraintLeft_toLeftOf="parent"
+        ads:layout_constraintRight_toRightOf="parent"
+        ads:layout_constraintHorizontal_bias="1.0">
+
+    </com.google.android.gms.ads.AdView>
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline4"
+        android:orientation="vertical"
+        ads:layout_constraintGuide_percent="0.29"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="93dp" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline5"
+        android:orientation="vertical"
+        ads:layout_constraintGuide_percent="0.7111111"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="227dp" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline6"
+        android:orientation="horizontal"
+        ads:layout_constraintGuide_percent="0.17989418"
+        tools:layout_editor_absoluteY="91dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline7"
+        android:orientation="horizontal"
+        ads:layout_constraintGuide_percent="0.41"
+        tools:layout_editor_absoluteY="208dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline12"
+        android:orientation="vertical"
+        ads:layout_constraintGuide_percent="0.93" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline13"
+        android:orientation="vertical"
+        ads:layout_constraintGuide_percent="0.072222225" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,20 @@
+alcorcon;alcorcon;Spanish Segunda Division%
+banfield;banfield;Argentine Primera División%
+braunschweig;Braunschweig;Germany 2. Bundesliga%
+burnley;burnley;English Premier League%
+carpi;carpi;Italy Serie B%
+cruzazul;cruz azul;Mexican Liga MX%
+domzale;domzale;Slovenian PrvaLiga%
+dundalk;dundalk;League of Ireland Premier Division%
+fortunasittard;fortuna sittard;Netherlands Eerste Divisie%
+guangzhou;Guangzhou Evergrande;Chinese Super League%
+heerenveen;heerenveen;Netherlands Eredivisie%
+jablonec;jablonec;Czech First League%
+levadia;levadia tallinn;Estonian Meistriliiga%
+leyton;Leyton Orient;English Vanarama National League%
+omonianicosia;omonia nicosia;Cypriot First Division%
+ried;ried;Austrian Football First League%
+rijeka;rijeka;Croatian First Football League%
+silkeborg;silkeborg;Danish Superliga%
+toronto;toronto;Major League Soccer%
+zilina;zilina;Slovak Super Liga%

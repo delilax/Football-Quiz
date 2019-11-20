@@ -1,0 +1,20 @@
+adelaidecity;Adelaide City;Australian A-League%
+birkirkara;Birkirkara;Maltese Premier League%
+brentford;Brentford;English EFL Championship%
+czjena;carl zeiss jena;Germany 3. Liga%
+duklapraha;Dukla Prague;Czech First League%
+evertonechile;everton;Chilean Primera División%
+gyor;gyor;Hungarian OTP Bank Liga%
+kashiwa;Kashiwa Reysol;Japanese J1 League%
+konyaspor;Konyaspor;Turkey Süper Lig%
+kortrijk;kortrijk;Belgian First Division A%
+leon;club leon;Mexican Liga MX%
+metalurgsliepajas;metalurgs liepajas;Latvian Higher League%
+mjondalen;mjondalen;Norwegian First Division%
+omonia;Anorthosis;Cypriot First Division%
+puebla;puebla;Mexican Liga MX%
+radnickinis;radnicki;Serbian SuperLiga%
+santacruz;santa cruz;Brazil Serie A%
+spartaktrnava;Spartak Trnava;Slovak Super Liga%
+stpatricksatheltic;St Patricks Athletic;League of Ireland Premier Division%
+zrinjski;zrinjski;BH Telecom Premier League of Bosnia and Herzegovina%

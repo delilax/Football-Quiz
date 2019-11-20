@@ -1,0 +1,1594 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lvlsbackground"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="8dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/level_description"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/teextView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/amateur"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/questionsLayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_bggreen"
+                android:clickable="true"
+                android:onClick="pitanjeopen"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/level1"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <ProgressBar
+                    android:id="@+id/progresbarquestionslvl1"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:max="20"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/progress_bar" />
+
+                <TextView
+                    android:id="@+id/scorequestionslvl1"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|end"
+                    android:text="@string/_0"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|start"
+                    android:text="@string/_20"
+                    android:textAlignment="viewStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/questionsLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_bggreen"
+                android:clickable="true"
+                android:onClick="pitanjeopen"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/level2"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <ProgressBar
+                    android:id="@+id/progresbarquestionslvl2"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:max="20"
+                    android:progress="5"
+                    android:progressDrawable="@drawable/progress_bar" />
+
+                <TextView
+                    android:id="@+id/scorequestionslvl2"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|end"
+                    android:text="@string/_0"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp"
+                    tools:text="0" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|start"
+                    android:text="@string/_20"
+                    android:textAlignment="viewStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/questionsLayout3"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_bggreen"
+                android:clickable="true"
+                android:onClick="pitanjeopen"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/level3"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <ProgressBar
+                    android:id="@+id/progresbarquestionslvl3"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:max="20"
+                    android:progress="10"
+                    android:progressDrawable="@drawable/progress_bar" />
+
+                <TextView
+                    android:id="@+id/scorequestionslvl3"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|end"
+                    android:text="@string/_0"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|start"
+                    android:text="@string/_20"
+                    android:textAlignment="viewStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/questionsLayout4"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_bggreen"
+                android:clickable="true"
+                android:onClick="pitanjeopen"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/level4"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <ProgressBar
+                    android:id="@+id/progresbarquestionslvl4"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:max="20"
+                    android:progress="15"
+                    android:progressDrawable="@drawable/progress_bar" />
+
+                <TextView
+                    android:id="@+id/scorequestionslvl4"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|end"
+                    android:text="@string/_0"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|start"
+                    android:text="@string/_20"
+                    android:textAlignment="viewStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/questionsLayout5"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_bggreen"
+                android:clickable="true"
+                android:onClick="pitanjeopen"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/level5"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <ProgressBar
+                    android:id="@+id/progresbarquestionslvl5"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:max="20"
+                    android:progress="20"
+                    android:progressDrawable="@drawable/progress_bar" />
+
+                <TextView
+                    android:id="@+id/scorequestionslvl5"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|end"
+                    android:text="@string/_0"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|start"
+                    android:text="@string/_20"
+                    android:textAlignment="viewStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/semipro"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/questionsLayout6"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_bgyellow"
+                android:clickable="true"
+                android:onClick="pitanjeopen"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/level6"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <ProgressBar
+                    android:id="@+id/progresbarquestionslvl6"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:max="20"
+                    android:progress="5"
+                    android:progressDrawable="@drawable/progress_bar" />
+
+                <TextView
+                    android:id="@+id/scorequestionslvl6"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|end"
+                    android:text="@string/_0"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|start"
+                    android:text="@string/_20"
+                    android:textAlignment="viewStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/questionsLayout7"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_bgyellow"
+                android:clickable="true"
+                android:onClick="pitanjeopen"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/level7"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <ProgressBar
+                    android:id="@+id/progresbarquestionslvl7"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:max="20"
+                    android:progress="5"
+                    android:progressDrawable="@drawable/progress_bar" />
+
+                <TextView
+                    android:id="@+id/scorequestionslvl7"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|end"
+                    android:text="@string/_0"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|start"
+                    android:text="@string/_20"
+                    android:textAlignment="viewStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/questionsLayout8"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_bgyellow"
+
+                android:clickable="true"
+                android:onClick="pitanjeopen"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/level8"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <ProgressBar
+                    android:id="@+id/progresbarquestionslvl8"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:max="20"
+                    android:progress="5"
+                    android:progressDrawable="@drawable/progress_bar" />
+
+                <TextView
+                    android:id="@+id/scorequestionslvl8"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|end"
+                    android:text="@string/_0"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|start"
+                    android:text="@string/_20"
+                    android:textAlignment="viewStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/questionsLayout9"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_bgyellow"
+                android:clickable="true"
+                android:onClick="pitanjeopen"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/level9"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <ProgressBar
+                    android:id="@+id/progresbarquestionslvl9"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:max="20"
+                    android:progress="5"
+                    android:progressDrawable="@drawable/progress_bar" />
+
+                <TextView
+                    android:id="@+id/scorequestionslvl9"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|end"
+                    android:text="@string/_0"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|start"
+                    android:text="@string/_20"
+                    android:textAlignment="viewStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/questionsLayout10"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_bgyellow"
+                android:clickable="true"
+                android:onClick="pitanjeopen"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/level10"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <ProgressBar
+                    android:id="@+id/progresbarquestionslvl10"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:max="20"
+                    android:progress="5"
+                    android:progressDrawable="@drawable/progress_bar" />
+
+                <TextView
+                    android:id="@+id/scorequestionslvl10"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|end"
+                    android:text="@string/_0"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|start"
+                    android:text="@string/_20"
+                    android:textAlignment="viewStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/professional"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/questionsLayout11"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_bgorange"
+                android:clickable="true"
+                android:onClick="pitanjeopen"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/level11"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <ProgressBar
+                    android:id="@+id/progresbarquestionslvl11"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:max="20"
+                    android:progress="5"
+                    android:progressDrawable="@drawable/progress_bar" />
+
+                <TextView
+                    android:id="@+id/scorequestionslvl11"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|end"
+                    android:text="@string/_0"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|start"
+                    android:text="@string/_20"
+                    android:textAlignment="viewStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/questionsLayout12"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_bgorange"
+                android:clickable="true"
+                android:onClick="pitanjeopen"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/level12"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <ProgressBar
+                    android:id="@+id/progresbarquestionslvl12"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:max="20"
+                    android:progress="5"
+                    android:progressDrawable="@drawable/progress_bar" />
+
+                <TextView
+                    android:id="@+id/scorequestionslvl12"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|end"
+                    android:text="@string/_0"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|start"
+                    android:text="@string/_20"
+                    android:textAlignment="viewStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/questionsLayout13"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_bgorange"
+                android:clickable="true"
+                android:onClick="pitanjeopen"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/level13"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:layout_weight="1" />
+
+                <ProgressBar
+                    android:id="@+id/progresbarquestionslvl13"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:max="20"
+                    android:progress="5"
+                    android:progressDrawable="@drawable/progress_bar" />
+
+                <TextView
+                    android:id="@+id/scorequestionslvl13"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|end"
+                    android:text="@string/_0"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|start"
+                    android:text="@string/_20"
+                    android:textAlignment="viewStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/questionsLayout14"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_bgorange"
+
+                android:clickable="true"
+                android:onClick="pitanjeopen"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/level14"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <ProgressBar
+                    android:id="@+id/progresbarquestionslvl14"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:max="20"
+                    android:progress="5"
+                    android:progressDrawable="@drawable/progress_bar" />
+
+                <TextView
+                    android:id="@+id/scorequestionslvl14"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|end"
+                    android:text="@string/_0"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|start"
+                    android:text="@string/_20"
+                    android:textAlignment="viewStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/questionsLayout15"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_bgorange"
+                android:clickable="true"
+                android:onClick="pitanjeopen"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/level15"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <ProgressBar
+                    android:id="@+id/progresbarquestionslvl15"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:max="20"
+                    android:progress="5"
+                    android:progressDrawable="@drawable/progress_bar" />
+
+                <TextView
+                    android:id="@+id/scorequestionslvl15"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|end"
+                    android:text="@string/_0"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp"
+                    tools:ignore="TooManyViews" />
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|start"
+                    android:text="@string/_20"
+                    android:textAlignment="viewStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/level_description2"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView69"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/worldclass"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/questionsLayout16"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_bgdarkorange"
+                android:clickable="true"
+                android:onClick="pitanjeopen"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/level16"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <ProgressBar
+                    android:id="@+id/progresbarquestionslvl16"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:max="20"
+                    android:progress="5"
+                    android:progressDrawable="@drawable/progress_bar" />
+
+                <TextView
+                    android:id="@+id/scorequestionslvl16"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|end"
+                    android:text="@string/_0"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView37"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|start"
+                    android:text="@string/_20"
+                    android:textAlignment="viewStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/questionsLayout17"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_bgdarkorange"
+                android:clickable="true"
+                android:onClick="pitanjeopen"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/level17"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <ProgressBar
+                    android:id="@+id/progresbarquestionslvl17"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:max="20"
+                    android:progress="5"
+                    android:progressDrawable="@drawable/progress_bar" />
+
+                <TextView
+                    android:id="@+id/scorequestionslvl17"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|end"
+                    android:text="@string/_0"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|start"
+                    android:text="@string/_20"
+                    android:textAlignment="viewStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/questionsLayout18"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_bgdarkorange"
+                android:clickable="true"
+                android:onClick="pitanjeopen"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/level18"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <ProgressBar
+                    android:id="@+id/progresbarquestionslvl18"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:max="20"
+                    android:progress="5"
+                    android:progressDrawable="@drawable/progress_bar" />
+
+                <TextView
+                    android:id="@+id/scorequestionslvl18"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|end"
+                    android:text="@string/_0"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|start"
+                    android:text="@string/_20"
+                    android:textAlignment="viewStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/questionsLayout19"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_bgdarkorange"
+
+                android:clickable="true"
+                android:onClick="pitanjeopen"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/level19"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <ProgressBar
+                    android:id="@+id/progresbarquestionslvl19"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:max="20"
+                    android:progress="5"
+                    android:progressDrawable="@drawable/progress_bar" />
+
+                <TextView
+                    android:id="@+id/scorequestionslvl19"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|end"
+                    android:text="@string/_0"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|start"
+                    android:text="@string/_20"
+                    android:textAlignment="viewStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/questionsLayout20"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_bgdarkorange"
+                android:clickable="true"
+                android:onClick="pitanjeopen"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/level20"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <ProgressBar
+                    android:id="@+id/progresbarquestionslvl20"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:max="20"
+                    android:progress="5"
+                    android:progressDrawable="@drawable/progress_bar" />
+
+                <TextView
+                    android:id="@+id/scorequestionslvl20"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|end"
+                    android:text="@string/_0"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView45"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|start"
+                    android:text="@string/_20"
+                    android:textAlignment="viewStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/legendary"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/questionsLayout21"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_bgred"
+
+                android:clickable="true"
+                android:onClick="pitanjeopen"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView46"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/level21"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <ProgressBar
+                    android:id="@+id/progresbarquestionslvl21"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:max="20"
+                    android:progress="5"
+                    android:progressDrawable="@drawable/progress_bar" />
+
+                <TextView
+                    android:id="@+id/scorequestionslvl21"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|end"
+                    android:text="@string/_0"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView47"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|start"
+                    android:text="@string/_20"
+                    android:textAlignment="viewStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/questionsLayout22"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_bgred"
+                android:clickable="true"
+                android:onClick="pitanjeopen"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView48"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/level22"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <ProgressBar
+                    android:id="@+id/progresbarquestionslvl22"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:max="20"
+                    android:progress="5"
+                    android:progressDrawable="@drawable/progress_bar" />
+
+                <TextView
+                    android:id="@+id/scorequestionslvl22"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|end"
+                    android:text="@string/_0"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView49"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|start"
+                    android:text="@string/_20"
+                    android:textAlignment="viewStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/questionsLayout23"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_bgred"
+                android:clickable="true"
+                android:onClick="pitanjeopen"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView50"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/level23"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <ProgressBar
+                    android:id="@+id/progresbarquestionslvl23"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:max="20"
+                    android:progress="5"
+                    android:progressDrawable="@drawable/progress_bar" />
+
+                <TextView
+                    android:id="@+id/scorequestionslvl23"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center|end"
+                    android:text="@string/_0"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView51"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|start"
+                    android:text="@string/_20"
+                    android:textAlignment="viewStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/questionsLayout24"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_bgred"
+                android:clickable="true"
+                android:onClick="pitanjeopen"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView52"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/level24"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <ProgressBar
+                    android:id="@+id/progresbarquestionslvl24"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:max="20"
+                    android:progress="5"
+                    android:progressDrawable="@drawable/progress_bar" />
+
+                <TextView
+                    android:id="@+id/scorequestionslvl24"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|end"
+                    android:text="@string/number_0"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView53"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|start"
+                    android:text="@string/_20"
+                    android:textAlignment="viewStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/questionsLayout25"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_bgred"
+                android:clickable="true"
+                android:onClick="pitanjeopen"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView54"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/level25"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <ProgressBar
+                    android:id="@+id/progresbarquestionslvl25"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:max="20"
+                    android:progress="5"
+                    android:progressDrawable="@drawable/progress_bar" />
+
+                <TextView
+                    android:id="@+id/scorequestionslvl25"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|end"
+                    android:text="@string/_0"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView55"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|start"
+                    android:text="@string/_20"
+                    android:textAlignment="viewStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

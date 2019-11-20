@@ -1,0 +1,20 @@
+beograd;beograd;Serbian SuperLiga%
+budapesthonved;Budapest Honved;Hungarian OTP Bank Liga%
+crawley;crawley town;English Football League Two%
+deportivotoluca;Deportivo Toluca;Mexican Liga MX%
+elnacional;El Nacional;Ecuadorian Serie A%
+geylangunited;geylang;Singaporean S.League%
+kuwait;kuwait;Kuwait Premier League%
+libertad;Club Libertad;Paraguayan Primera División%
+lulea;lulea;Swedish Division 1%
+olimpija;Olimpija Ljubljana;Slovenian PrvaLiga%
+osaka;cerezo osaka;Japanese J1 League%
+otelulgalati;otelul galati;Romanian Liga I%
+oxfordcity;oxford city;English National League South%
+pyunik;pyunik;Armenian Premier League%
+rabotnicki;rabotnicki;Macedonian First Football League%
+santoslaguna;santos laguna;Mexican Liga MX%
+tirana;tirana;Albanian Superliga%
+tiraspol;tiraspol;Moldovan National Division%
+valletta;valletta;Maltese Premier League%
+waccasablanca;Wydad Casablanca;Moroccan Botola%

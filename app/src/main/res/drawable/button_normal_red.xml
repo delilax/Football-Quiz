@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <solid android:width="1dp"
+        android:color="@color/button_red"/>
+
+    <padding
+        android:left="5dp"
+        android:right="5dp"
+        />
+
+    <corners android:radius="5dp"/>
+
+    <gradient
+        android:startColor="@color/button_red"
+        android:endColor="@color/button_darkred"
+        android:angle="270" />
+
+</shape>

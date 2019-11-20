@@ -1,0 +1,20 @@
+carlisle;carlisle united;English Football League Two%
+boavista;boavista;Portugal Primeira Liga%
+brondby;brondby;Danish Superliga%
+bursaspor;bursaspor;Turkey Süper Lig%
+chapecoense;chapecoense;Brazil Serie A%
+chicago;chicago fire;Major League Soccer%
+elfsborg;elfsborg;Swedish Allsvenskan%
+fluminese;Fluminense;Brazil Serie A%
+hoffenheim;Hoffenheim;Germany Bundesliga%
+huddersfield;Huddersfield Town;English Premier League%
+lecce;lecce;Italy Serie C%
+lehavre;le havre;France Ligue 2%
+minsk;Dinamo Minsk;Belarusian Premier League%
+newcastle;newcastle united;English Premier League%
+portsmouth;portsmouth;English Football League One%
+qpr;Queens Park Rangers;English EFL Championship%
+sarajevo;sarajevo;BH Telecom Premier League of Bosnia and Herzegovina%
+spartarotterdam;Sparta Rotterdam;Netherlands Eredivisie%
+strasbourg;Strasbourg;France Ligue 1%
+zvezda;red star;Serbian SuperLiga%

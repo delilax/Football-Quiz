@@ -1,0 +1,20 @@
+argentinosjuniors;Argentinos Juniors;Argentine Primera División%
+brescia;brescia calcio;Italy Serie B%
+colorado;colorado rapids;Major League Soccer%
+cruzeiro;cruzeiro;Brazil Serie A%
+denbosch;Den Bosch;Netherlands Eerste Divisie%
+halmstads;Halmstads;Swedish Allsvenskan%
+lillestrom;lillestrom;Norwegian Eliteserien%
+litex;Litex Lovech;Bulgarian First Professional Football League%
+maribor;maribor;Slovenian PrvaLiga%
+mtkbudapest;MTK Budapest;Hungarian OTP Bank Liga%
+numancia;numancia;Spanish Segunda Division%
+oncecaldas;once caldas;Colombian Liga Aguila%
+orlandopirates;orlando pirates;South African Premier Division%
+osasuna;osasuna;Spanish Segunda Division%
+rapidwien;rapid wien;Austrian Football Bundesliga%
+servette;Servette;Swiss Super League%
+slovanbratislava;slovan bratislava;Slovak Super Liga%
+spartakmoscow;spartak moscow;Russian Premier League%
+teplice;teplice;Czech First League%
+zeljeznicar;zeljeznicar;BH Telecom Premier League of Bosnia and Herzegovina%

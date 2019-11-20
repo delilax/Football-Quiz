@@ -1,0 +1,20 @@
+a1860munchen;1860 munchen;Germany Bundesliga%
+ajax;ajax;Netherlands Eredivisie%
+atalanta;atalanta;Italy Serie A%
+besiktas;besiktas;Turkey Süper Lig%
+bordeaux;bordeaux;France Ligue 1%
+feyenoord;feyenoord;Netherlands Eredivisie%
+fulham;fulham;English EFL Championship%
+lazio;lazio;Italy Serie A%
+leeds;leeds united;England EFL Championship%
+leicester;leicester city;English Premier League%
+monchengladbach;monchengladbach;Germany Bundesliga%
+nurnberg;nurnberg;Germany 2. Bundesliga%
+olympiakos;Olympiacos;Superleague Greece%
+panathinaikos;Panathinaikos;Superleague Greece%
+porto;Porto;Portugal Primeira Liga%
+saintetienne;saint etienne;France Ligue 1%
+santos;santos;Brazil Serie A%
+sociedad;real sociedad;Spanish La Liga%
+tolouse;Toulouse;France Ligue 1%
+valladolid;real valladolid;Spanish Segunda Division%

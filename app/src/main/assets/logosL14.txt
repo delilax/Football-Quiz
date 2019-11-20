@@ -1,0 +1,20 @@
+atleticonacional;atletico nacional;Colombian Liga Aguila%
+belenenses;Belenenses;Portugal Primeira Liga%
+dcunited;dc united;Major League Soccer%
+djurgardens;djurgardens;Swedish Allsvenskan%
+dundeeunited;Dundee United;Scottish Premiership%
+emelec;emelec;Ecuadorian Serie A%
+gremio;gremio;Brazil Serie A%
+hajduk;hajduk split;Croatian First Football League%
+jagiellonia;Jagiellonia;Poland Ekstraklasa%
+levski;Levski Sofia;Bulgarian First Professional Football League%
+mechelen;Mechelen;Belgian First Division A%
+midtjylland;Midtjylland;Danish Superliga%
+partizan;partizan;Serbian SuperLiga%
+reggina;Reggina;Italy Serie C%
+shamrockrovers;Shamrock Rovers;League of Ireland Premier Division%
+sunderland;Sunderland;English EFL Championship%
+udinese;Udinese Calcio;English Premier League%
+vicenza;Vicenza Calcio;Italy Serie C%
+zenit;zenit;Russian Premier League%
+zwole;PEC Zwolle;Netherlands Eredivisie%

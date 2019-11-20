@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pozadina"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="8dp"
+        ads:layout_constraintBottom_toBottomOf="@+id/linearLayout17"
+        android:layout_marginEnd="8dp"
+        ads:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="50dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="57dp"
+        ads:layout_constraintLeft_toLeftOf="parent"
+        ads:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+        <TextView
+            android:id="@+id/scoreEnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/scoreEndPercent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout17"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        ads:layout_constraintBottom_toTopOf="@+id/text111"
+        android:layout_marginTop="92dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="88dp"
+        ads:layout_constraintLeft_toLeftOf="parent"
+        ads:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/replaylvl"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_bg_blue"
+            android:onClick="replayLevel"
+            android:text="@string/retry" />
+
+        <Button
+            android:id="@+id/nextlvl"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_bg_blue"
+            android:onClick="nextLevel"
+            android:text="@string/next" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/levelsList"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg_green"
+        android:onClick="backtoLevels"
+        android:text="@string/levels"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="55dp"
+        ads:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="10dp"
+        ads:layout_constraintTop_toBottomOf="@+id/linearLayout17"
+        tools:layout_constraintLeft_creator="1"
+        ads:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="55dp" />
+
+
+    <TextView
+        android:id="@+id/text111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/correct_answers"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        ads:layout_constraintBottom_toTopOf="@+id/scoreText"
+        ads:layout_constraintRight_toRightOf="@+id/scoreText"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="1dp"
+        ads:layout_constraintLeft_toRightOf="@+id/scoreText" />
+
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="36sp"
+        android:textStyle="bold"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        ads:layout_constraintBottom_toTopOf="@+id/showNewHints"
+        ads:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        ads:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/showNewHints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        ads:layout_constraintBottom_toTopOf="@+id/linearLayout15"
+        ads:layout_constraintRight_toRightOf="@+id/scoreText"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="1dp"
+        ads:layout_constraintLeft_toRightOf="@+id/scoreText" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        ads:layout_constraintRight_toRightOf="@+id/scoreText"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="162dp"
+        ads:layout_constraintLeft_toRightOf="@+id/scoreText"
+        android:id="@+id/linearLayout15">
+
+        <Button
+            android:id="@+id/ad_buttonQ_Yes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_bg_green"
+            android:text="@string/double_up_hint"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout16"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        ads:layout_constraintRight_toRightOf="parent"
+        ads:layout_constraintTop_toBottomOf="@+id/linearLayout15"
+        tools:layout_constraintLeft_creator="1"
+        ads:layout_constraintLeft_toLeftOf="parent">
+
+        <Button
+            android:id="@+id/results"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_bg_red"
+            android:onClick="openResults"
+            android:text="@string/results" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="8dp"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="8dp"
+        ads:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="8dp"
+        ads:layout_constraintTop_toBottomOf="@+id/linearLayout16"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="8dp"
+        ads:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/banner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="@string/test_banner" />
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

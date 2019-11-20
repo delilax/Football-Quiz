@@ -1,0 +1,20 @@
+benevento;Benevento Calcio;Italy Serie A%
+brisbane;Brisbane Roar;Australian A-League%
+celik;celik;BH Telecom Premier League of Bosnia and Herzegovina%
+dinamotibilsi;Dinamo Tbilisi;Georgian Erovnuli Liga%
+flora;flora;Estonian Meistriliiga%
+guadalajara;Guadalajara;Mexican Liga MX%
+haka;haka;Finnish Ykkönen%
+ipswich;ipswich town;English EFL Championship%
+jeffunited;jef united;Japanese J2 League%
+larisa;larissa;Superleague Greece%
+lyngby;lyngby;Danish Superliga%
+oxfordunited;oxford united;English Football League One%
+piacenza;piacenza calcio;Italy Serie C%
+realpotosi;real potosi;Liga de Fútbol Profesional Boliviano%
+saopaulo;sao paulo;Brazil Serie A%
+torpedomoskva;Torpedo Moscow;Russian Football National League%
+velez;Velez Sarsfield;Argentine Primera División%
+venezia;venezia;Italy Serie B%
+ventspils;Ventspils;Latvian Higher League%
+zamalek;zamalek;Egyptian Premier League%

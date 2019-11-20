@@ -1,0 +1,20 @@
+aek;AEK Athens;Superleague Greece%
+aik;AIK Fotboll;Swedish Allsvenskan%
+almeria;almeria;Spanish Segunda Division%
+bournemouth;Bournemouth;English Premier League%
+clubnacional;Club Nacional;Uruguayan Primera División%
+cluj;cluj;Romanian Liga I%
+dynamo;Dynamo Moscow;Russian Premier League%
+excelsior;Excelsior;Netherlands Eredivisie%
+galaxy;la galaxy;Major League Soccer%
+granada;granada;Spanish Segunda Division%
+guimares;Vitoria Guimaraes;Portugal Primeira Liga%
+kaiserslautern;Kaiserslautern;Germany 2. Bundesliga%
+lens;lens;France Ligue 2%
+nantes;Nantes;France Ligue 1%
+treabzonspor;Trabzonspor;Turkey Süper Lig%
+unionberlin;Union Berlin;Germany 2. Bundesliga%
+videoton;Videoton;Hungarian OTP Bank Liga%
+waalwijk;Waalwijk;Netherlands Eerste Divisie%
+wba;West Bromwich Albion;English Premier League%
+wislakrakow;wisla krakow;Poland Ekstraklasa%

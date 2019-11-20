@@ -1,0 +1,20 @@
+bohemainsdublin;Bohemian;League of Ireland Premier Division%
+botafogo;botafogo;Brazil Serie A%
+cardiff;cardiff city;English EFL Championship%
+clubamerica;club america;Mexican Liga MX%
+eibar;eibar;Spanish La Liga%
+estudiantesmerida;Estudiantes Merida;Primera División Venezolana%
+falkirk;falkirk;Scottish Championship%
+gambaosaka;Gamba Osaka;Japanese J1 League%
+huracan;huracan;Argentine Primera División%
+kaizerchiefs;Kaizer Chiefs;South African Premier Division%
+luzern;luzern;Swiss Super League%
+magdeburg;Magdeburg;Germany 3. Liga%
+norrkoping;norrkoping;Swedish Allsvenskan%
+oficrete;OFI Crete;Greece Football League%
+perugia;perugia calcio;Italy Serie B%
+pohang;Pohang Steelers;South Korean K League Classic%
+sanlorenzo;San Lorenzo;Argentine Primera División%
+sigmaolomuc;Sigma Olomouc;Czech First League%
+spal;spal;Italy Serie A%
+vojvodina;vojvodina;Serbian SuperLiga%

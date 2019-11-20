@@ -1,0 +1,20 @@
+anzhi;Anzhi Makhachkala;Russian Premier League%
+bochum;Bochum;Germany 2. Bundesliga%
+charltonathletic;Charlton Athletic;English Football League One%
+dinamobucuresti;Dinamo Bucuresti;Romanian Liga I%
+dynamokyiv;Dynamo Kyiv;Ukrainian Premier League%
+ferencvaros;ferencvarosi;Hungarian OTP Bank Liga%
+gent;gent;Belgian First Division A%
+helsinki;Helsinki;Finnish Veikkausliiga%
+istanbul;Istanbul Basaksehir;Turkey Süper Lig%
+legiawarsaw;Legia Warsaw;Poland Ekstraklasa%
+levante;levante;Spanish La Liga%
+motherwell;Motherwell;Scottish Premiership%
+novara;novara calcio;Italy Serie B%
+oostende;Oostende;Belgian First Division A%
+pescara;Pescara;Italy Serie B%
+preston;Preston North End;English EFL Championship%
+realbetis;real betis;Spanish La Liga%
+troyes;troyes;France Ligue 1%
+venlo;venlo;Netherlands Eredivisie%
+zaragoza;real zaragoza;Spanish Segunda Division%

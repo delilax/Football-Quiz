@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "639816367322",
+    "firebase_url": "https://footballquiz-bc182.firebaseio.com",
+    "project_id": "footballquiz-bc182",
+    "storage_bucket": "footballquiz-bc182.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639816367322:android:58d4c3381e3c987e",
+        "android_client_info": {
+          "package_name": "com.dendell.studio.footballquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "639816367322-693rabe9qcub0g4icr3m8mt6vnpt6egk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dendell.studio.footballquiz",
+            "certificate_hash": "46d9d7e4ba6725cc820976c87e307b2f0e79f6e2"
+          }
+        },
+        {
+          "client_id": "639816367322-0v0948cocbu27ug1contrk4r4crrf99r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dendell.studio.footballquiz",
+            "certificate_hash": "35cdd92a171005c6c522131ef56bd8db80c687d7"
+          }
+        },
+        {
+          "client_id": "639816367322-h5rd9tjhn16iivcbvai533djpu80m7ga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5yEwMhnWXYWNvcYG7G62BIEdv09FSDAA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "639816367322-h5rd9tjhn16iivcbvai533djpu80m7ga.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639816367322:android:08410046c42d6fd7",
+        "android_client_info": {
+          "package_name": "com.dendell.studio.footballquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "639816367322-5k080trie0mfpnr64k43u0jhu4uphepl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dendell.studio.footballquiz",
+            "certificate_hash": "35cdd92a171005c6c522131ef56bd8db80c687d7"
+          }
+        },
+        {
+          "client_id": "639816367322-h5rd9tjhn16iivcbvai533djpu80m7ga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5yEwMhnWXYWNvcYG7G62BIEdv09FSDAA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "639816367322-h5rd9tjhn16iivcbvai533djpu80m7ga.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

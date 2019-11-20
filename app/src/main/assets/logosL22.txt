@@ -1,0 +1,20 @@
+ashdod;ashdod;Israeli Premier League%
+astana;astana;Kazakhstan Premier League%
+atleticoparanense;Atletico Paranaense;Brazil Serie A%
+clubolimpia;Club Olimpia;Paraguayan Primera División%
+corkcity;cork city;League of Ireland Premier Division%
+doncaster;Doncaster Rovers;English Football League One%
+floriana;floriana;Maltese Premier League%
+gorica;gorica;Slovenian PrvaLiga%
+jeonbuk;jeonbuk;South Korean K League Classic%
+maritimo;maritimo;Portugal Primeira Liga%
+millonarios;Millonarios;Colombian Liga Aguila%
+newcastlejets;newcastle jets;Australian A-League%
+paderborn;paderborn;Germany 3. Liga%
+padova;calcio padova;Italy Serie C%
+qarabag;qarabag;Azerbaijan Premier League%
+ruchchorzow;Ruch Chorzow;Poland Ekstraklasa%
+sloboda;sloboda;BH Telecom Premier League of Bosnia and Herzegovina%
+thestrongest;the strongest;Liga de Fútbol Profesional Boliviano%
+tigres;tigres;Mexican Liga MX%
+viking;viking;Norwegian Eliteserien%

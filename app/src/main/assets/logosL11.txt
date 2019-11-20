@@ -1,0 +1,20 @@
+aeklarnaca;AEK Larnaca;Cypriot First Division%
+ajaccio;ajaccio;France Ligue 2%
+alaves;deportivo alaves;Spanish La Liga%
+austria;Austria Wien;Austrian Football Bundesliga%
+cskasofia;CSKA Sofia;Bulgarian First Professional Football League%
+elche;elche;Spanish Segunda Division%
+estudiantes;estudiantes;Argentine Primera División%
+flamengo;flamengo;Brazil Serie A%
+gijon;sporting gijon;Spanish Segunda Division%
+hapoel;Hapoel Tel Aviv;Israeli Premier League%
+kilmarnock;Kilmarnock;Scottish Premiership%
+levadioakos;Levadiakos;Superleague Greece%
+nacbreda;NAC Breda;Netherlands Eredivisie%
+provercelli;Pro Vercelli;Italy Serie B%
+reading;Reading;English EFL Championship%
+rubinkazan;Rubin Kazan;Russian Premier League%
+sheffieldwednesday;Sheffield Wednesday;English EFL Championship%
+sheriff;Sheriff Tiraspol;Moldovan National Division%
+ujpest;ujpest;Hungarian OTP Bank Liga%
+zultewaregem;Zulte Waregem;Belgian First Division A%

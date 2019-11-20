@@ -1,0 +1,20 @@
+alahlycairo;al ahly;Egyptian Premier League%
+alashkert;Alashkert;Armenian Premier League%
+asantekotoko;Asante Kotoko;Ghanian First Capital Plus Premier League%
+atlas;club atlas;Mexican Liga MX%
+beijingguoan;Beijing Guoan;Chinese Super League%
+brann;brann;Norwegian Eliteserien%
+cerroporteno;cerro porteno;Paraguayan Primera División%
+dinamotirana;Dinamo Tirana;Albanian Superliga%
+esperancesportive;esperance sportive;Tunisian Ligue Professionnelle 1%
+galwayunited;Galway United;League of Ireland Premier Division%
+gornikzabrze;gornik zabrze;Poland Ekstraklasa%
+homeunited;home united;Singaporean S.League%
+junior;atletico junior;Colombian Liga Aguila%
+kawasaki;kawasaki;Japanese J1 League%
+oberhausen;oberhausen;Germany Regionalliga West%
+polokwane;Polokwane City;South African Premier Division%
+raja;Raja Casablanca;Moroccan Botola%
+skenderbeu;skenderbeu;Albanian Superliga%
+walsall;walsall;English Football League One%
+zimbru;zimbru;Moldovan National Division%

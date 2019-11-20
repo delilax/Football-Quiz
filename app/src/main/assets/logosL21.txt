@@ -1,0 +1,20 @@
+amiens;amiens;France Ligue 1%
+atromitos;atromitos;Superleague Greece%
+atvidabergs;atvidabergs;Swedish Superettan%
+buducnost;buducnost podgorica;Montenegrin First League%
+cadiz;cadiz;Spanish Segunda Division%
+deportivocali;deportivo cali;Colombian Liga Aguila%
+derrycity;derry city;League of Ireland Premier Division%
+hartlepool;hartlepool united;English Vanarama National League%
+krasnodar;krasnodar;Russian Premier League%
+liaoning;liaoning;Chinese Super League%
+montreal;Montreal Impact;Major League Soccer%
+nacionalpotosi;nacional potosi;Liga de Fútbol Profesional Boliviano%
+necaxa;Club Necaxa;Mexican Liga MX%
+osijek;osijek;Croatian First Football League%
+perthglory;perth glory;Australian A-League%
+petrolul;petrolul;Romanian Liga III%
+rosariocentral;rosario central;Argentine Primera División%
+suwon;suwon;South Korean K League Classic%
+universidad;Club Universidad;Chilean Primera División%
+widzewlodz;widzew lodz;Poland III Liga%

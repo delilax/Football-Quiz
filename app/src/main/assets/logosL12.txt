@@ -1,0 +1,20 @@
+aalborg;aalborg;Danish Superliga%
+bari;bari;Italy Serie B%
+barnsley;Barnsley;English EFL Championship%
+beroe;Beroe;Bulgarian First Professional Football League%
+cagliari;Cagliari Calcio;Italy Serie A%
+cerclebrugge;Cercle Brugge;Belgian First Division A%
+chernomore;Cherno More;Bulgarian First Professional Football League%
+coventry;Coventry City;English Football League Two%
+debrecen;Debreceni;Hungarian OTP Bank Liga%
+duisburg;duisburg;Germany 2. Bundesliga%
+goaheadeagles;Go Ahead Eagles;Netherlands Eerste Divisie%
+guingamp;Guingamp;France Ligue 1%
+iraklis;iraklis;Superleague Greece%
+karlsruher;Karlsruher;Germany 3. Liga%
+lechpoznan;Lech Poznan;Poland Ekstraklasa%
+lokeren;lokeren;Belgian First Division A%
+mkdons;Milton Keynes Dons;English Football League One%
+molde;Molde;Norwegian Eliteserien%
+stpauli;st pauli;Germany 2. Bundesliga%
+viktoria;viktoria plzen;Czech First League%

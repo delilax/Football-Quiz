@@ -1,0 +1,20 @@
+anderelecht;Anderlecht;Belgian First Division A%
+benfica;benfica;Portugal Primeira Liga%
+bocajuniors;boca juniors;Argentine Primera División%
+catania;Calcio Catania;Italy Serie C%
+celtic;celtic;Scottish Premiership%
+chievo;chievo verona;Italy Serie A%
+dijon;dijon;France Ligue 1%
+getafe;getafe;Spanish La Liga%
+koln;koln;Germany Bundesliga%
+nice;nice;France Ligue 1%
+nottinghamforrest;nottingham forest;England EFL Championship%
+psv;psv eindhoven;Netherlands Eredivisie%
+rangers;rangers;Scottish Premiership%
+salzburg;Red Bull Salzburg;Austrian Football Bundesliga%
+southampton;southampton;English Premier League%
+sporting;sporting;Portugal Primeira Liga%
+staderennais;Stade Rennais;France Ligue 1%
+stoke;stoke city;English Premier League%
+stuttgart;stuttgart;Germany Bundesliga%
+werder;Werder Bremen;Germany Bundesliga%

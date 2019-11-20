@@ -1,0 +1,20 @@
+adodenhag;ado den haag;Netherlands Eredivisie%
+apoel;apoel;Cypriot First Division%
+augsburg;augsburg;Germany Bundesliga%
+blackpool;blackpool;English Football League One%
+bologna;bologna;Italy Serie A%
+braga;braga;Portugal Primeira Liga%
+cska;CSKA Moscow;Russian Premier League%
+groningen;Groningen;Netherlands Eredivisie%
+hannover;Hannover;Germany Bundesliga%
+hearts;hearts;Scottish Premiership%
+lemans;le mans;France Championnat National %
+livorno;Livorno Calcio;Italy Serie C%
+metz;metz;France Ligue 1%
+newels;Newells Old Boys;Argentine Primera División%
+nottscounty;Notts County;English Football League Two%
+sheffieldunited;Sheffield United;English EFL Championship%
+slaviapraha;Slavia Prague;Czech First League%
+steaua;Steaua Bucuresti;Romanian Liga I%
+tenerife;tenerife;Spanish Segunda Division%
+vallecano;Rayo Vallecano;Spanish Segunda Division%

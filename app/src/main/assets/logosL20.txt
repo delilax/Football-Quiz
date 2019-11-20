@@ -1,0 +1,20 @@
+aarau;Aarau;Swiss Challenge League%
+adelaide;adelaide united;Australian A-League%
+antalyaspor;Antalyaspor;Turkey Süper Lig%
+bohemians;Bohemians Prague;Czech First League%
+bradford;bradford city;English Football League One%
+brighton;brighton;English Premier League%
+charleroi;charleroi;Belgian First Division A%
+foggia;foggia calcio;Italy Serie B%
+girona;girona;Spanish La Liga%
+horsens;horsens;Danish Superliga%
+kashima;Kashima Antlers;Japanese J1 League%
+kosice;kosice;Slovak 2. Liga%
+lahti;lahti;Finnish Veikkausliiga%
+liverpoolmontevideo;liverpool;Uruguayan Primera División%
+lokomotivsofia;Lokomotiv Sofia;Bulgarian First Professional Football League%
+monterrey;Monterrey;Mexican Liga MX%
+palmeiras;palmeiras;Brazil Serie A%
+racing;racing;Argentine Primera División%
+recife;sport recife;Brazil Serie A%
+vardar;vardar;Macedonian First League%

@@ -1,0 +1,20 @@
+alkmar;az alkmaar;Netherlands Eredivisie%
+blackburn;Blackburn Rovers;English Football League One%
+bolton;Bolton Wanderers;English EFL Championship%
+celtavigo;celta vigo;Spanish La Liga%
+deportivo;deportivo la coruna;Spanish La Liga%
+hamburg;Hamburger;Germany Bundesliga%
+herta;hertha;Germany Bundesliga%
+kobenhavn;Copenhagen;Danish Superliga%
+lille;lille;France Ligue 1%
+lorient;lorient;France Ligue 2%
+mainz;mainz;Germany Bundesliga%
+malaga;malaga;Spanish La Liga%
+mallorca;Mallorca;Spanish Segunda Division%
+monaco;monaco;France Ligue 1%
+norwich;Norwich City;English EFL Championship%
+parma;Parma Calcio;Italy Serie B%
+riverplate;river plate;Argentine Primera División%
+spartapraha;Sparta Prague;Czech First League%
+twente;twente;Netherlands Eredivisie%
+verona;Hellas Verona;Italy Serie A%

@@ -1,0 +1,20 @@
+ael;AEL Limassol;Cypriot First Division%
+aris;Aris Thessaloniki;Greece Football League%
+bastia;Bastia;France Ligue 2%
+bateborisov;BATE Borisov;Belarusian Premier League%
+cesena;cesena;Italy Serie B%
+colocolo;colo colo;Chilean Primera División%
+corinthians;Corinthians Paulista;Brazil Serie A%
+dinamo;dinamo zagreb;Croatian First Football League%
+dresden;Dynamo Dresden;Germany 2. Bundesliga%
+eintrachtfrankfurt;Eintracht Frankfurt;Germany Bundesliga%
+empoli;empoli;Italy Serie B%
+genk;genk;Belgian First Division A%
+grenoble;grenoble;France Championnat National%
+independiente;Independiente;Argentine Primera División%
+ludogorets;Ludogorets Razgrad;Bulgarian First Professional Football League%
+nordsjaelland;nordsjaelland;Danish Superliga%
+slovanliberec;Slovan Liberec;Czech First League%
+standarliege;standard liege;Belgian First Division A%
+sturm;Sturm Graz;Austrian Football Bundesliga%
+watford;watford;English Premier League%

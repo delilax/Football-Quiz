@@ -1,0 +1,20 @@
+astonvilla;aston villa;English Premier League%
+atleticomadrid;atletico madrid;Spanish Primera Division%
+auxerre;auxerre;France Ligue 1%
+bilbao;athletic bilbao;Spanish Primera Division%
+genoa;genoa;Italy Seria A%
+leverkusen;bayer leverkusen;Germany Bundesliga%
+espanyol;espanyol;Spanish Primera Division%
+marseille;marseille;France Ligue 1%
+napoli;napoli;Italy Seria A%
+westham;west ham;English Premier League%
+montpellier;montpellier;France Ligue 1%
+wolfsburg;wolfsburg;Germany Bundesliga%
+palermo;palermo;Italy Seria B%
+wigan;wigan;EFL League One%
+schalke;schalke;Germany Bundesliga%
+torino;torino;Italy Seria A%
+swansea;swansea;English Premier League%
+sampdoria;sampdoria;Italy Seria A%
+wolves;wolverhampton;English EFL Championship%
+roma;roma;Italy Seria A%
